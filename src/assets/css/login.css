@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Voltaire&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-family: 'Voltaire', sans-serif;
+    font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 45px;
+
+
+    color: #7AD4FB;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #7AD4FB;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header {
+    background-color: #004E60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    height: 12vh;
+}
+.container{
+ width: 60%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.links {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+.logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+ header img {
+    height: 15%;
+    width: 15%;
+    margin-right: 5%;
+} 
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 82vh;
+    background-image: url(../img/luva.png);
+    background-size: cover;
+}
+section{
+    
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    align-items: center;
+    width:450px ; 
+
+    height: 450px;
+    background-color: #004E60;
+    border-radius: 50px;
+}
+section img{
+    margin-top: 50px;
+    width: 70px;
+    height: 80px;
+}
+section span{
+    font-family: 'Roboto', sans-serif;
+    color:#7AD4FB;
+    text-transform: capitalize;
+    font-size: 24px;
+line-height: 28px;
+}
+input{
+    background-color:#7AD4FB;
+    width: 350px;
+    height: 50px;
+    border: 4px solid #004E60;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+    
+}
+.pass{
+    margin-bottom: 20px;
+}
+
+button{
+  background-color: #7AD4FB;
+  text-decoration: none;
+  border: none;
+  width: 150px;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+   color: #004E60; 
+   font-size: 25px;
+line-height: 30px;
+  border-radius: 30px;
+ margin-bottom: 50px;
+}
+
+footer{
+    background-color: #004E60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:6vh ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #7AD4FB;
+}
